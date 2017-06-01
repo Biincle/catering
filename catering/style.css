@@ -1,0 +1,33 @@
+body{
+	background-color:#f7f7f7;
+}
+div.container{
+	width: 80%;
+	margin:0 auto;
+}
+div.kafelek{
+	width: 450px;
+	height: 450px;
+	background-color:#f39c12;
+	float:left;
+	margin: 5px;
+	position: static;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.19);
+	line-height: 335px;
+	text-align: center;
+	
+}
+div.kafelek span.symbol{
+	font-size: 200px;
+	color:#ecf0f1;
+	}
+	div.kafelek span.tekst{
+		font-size: 35px;
+		color:#ecf0f1;
+	}
+div.kafelek:hover{
+	-ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+    transform: rotate(2deg);
+}
